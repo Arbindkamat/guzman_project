@@ -38,7 +38,7 @@ class SplashScreen extends StatelessWidget {
       body: SizedBox(
         height: double.infinity,
         width: double.infinity,
-        child: Image.network(""),
+        child: Image.network("https://picsum.photos/200/300"),
       ),
     );
   }
